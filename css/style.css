@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top:0;
 }
 
 .main-container {
@@ -36,8 +37,31 @@ header
 {
     width: 3.819em;
     height: 1.188em;
+    padding-top:1.875em;
+    padding-bottom:1.875em;
+    padding-left:3.125em;
+    padding-right:3.125em;
 }
 
+nav
+{
+    display: flex;
+    gap:1.25em;
+    padding-left:3.125rem;
+    padding-right:3.125rem;
+ 
+}
+
+nav a
+{
+    padding-top:0.875em;
+}
+
+nav a:hover 
+{
+    color:var(--main-color);
+    border-top:var(--main-color) solid 2px;
+}
 
 a {
     color: inherit;
