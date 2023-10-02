@@ -25,6 +25,20 @@ body {
     box-sizing: border-box;
 }
 
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 3.819em;
+    height: 1.188em;
+}
+
+
 a {
     color: inherit;
     text-decoration: none;
