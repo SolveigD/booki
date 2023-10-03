@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --grey-tint-2:#d9d9d9;
     --white: #fff;
     --grey: #f2f2f2;
     --black: #000000 ;
@@ -142,19 +143,33 @@ form
 {
     display: flex;
     flex-direction: row;
+    gap:15px;
 }
 
 .filter_bar a
 {
     display: flex;
     align-items: center;
+    padding-right:19px;
+    padding-left:19px;
+    gap:10px;
+    border-radius:25px;
+    border: 2px var(--grey-tint-2) solid;
+    font-size:17px;
+    font-weight:700;
+    
+}
+
+.filter_bar a:hover
+{
+    background-color: var(--filter-bg-color);
 }
 
 .filter_bar p
 {
     font-size:18px;
     font-weight: 700;
-    margin-right:15px;
+    
 }
 
 .section-title {
