@@ -7,6 +7,9 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --white: #fff;
+    --grey: #f2f2f2;
+    --black: #000000 ;
 }
 
 .fa-solid {
@@ -69,6 +72,70 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.info_group
+{
+    margin-top:30px;
+}
+
+.info_group h1
+{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.info-group p
+{
+    font-size:14px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+.search_icon
+{
+    background-color: var(--grey);
+    height:50px;
+    width:49px;
+    border: 1px solid var(--grey);
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
+}
+
+.search_icon .fa-solid
+{
+    color: var(--black);
+    margin:auto;
+}
+
+.submit
+{
+    background-color: var(--main-color);
+    color:var(--white);
+    border : 1px solid var(--main-color);
+    font-size:18px;
+    font-weight: 700;
+    border-radius: 0px 15px 15px 0px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.search
+{
+    font-size:18px;
+    font-weight:700;
+    padding-left:24px;
+    padding-right:24px;
+    border:none;
+}
+
 
 .section-title {
     margin: 0;
