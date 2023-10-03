@@ -138,6 +138,24 @@ form
     border:none;
 }
 
+.filter_bar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter_bar a
+{
+    display: flex;
+    align-items: center;
+}
+
+.filter_bar p
+{
+    font-size:18px;
+    font-weight: 700;
+    margin-right:15px;
+}
 
 .section-title {
     margin: 0;
