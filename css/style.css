@@ -35,26 +35,28 @@ header
 
 .logo
 {
-    width: 3.819em;
-    height: 1.188em;
-    padding-top:1.875em;
-    padding-bottom:1.875em;
-    padding-left:3.125em;
-    padding-right:3.125em;
+    width: 61.1px;
+    height: 19px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:50px;
+    padding-right:50px;
 }
 
 nav
 {
     display: flex;
-    gap:1.25em;
-    padding-left:3.125rem;
-    padding-right:3.125rem;
+    width:279px;
+    height:35px;
+    gap:68px;
+    padding-left:25px;
+    padding-right:25px;
  
 }
 
 nav a
 {
-    padding-top:0.875em;
+    padding-top:14px;
 }
 
 nav a:hover 
