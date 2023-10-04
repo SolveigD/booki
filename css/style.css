@@ -246,13 +246,18 @@ form
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+ 
 }
 
 .hebergements-cards
 
 {
+ 
  display: flex;
+ align-self: stretch;
  flex-direction: row;
+ justify-content: space-evenly;
+ gap:30px;
  margin-top:30px;
 }
 
@@ -277,17 +282,6 @@ form
     padding:0;
 }
 
-.hebergements-card .card-txt
-{
-    margin:0;
-    padding:0;
-}
-
-.hebergements-card .card-rating
-{
-    margin:0px;
-    padding:0px;
-}
 
 .hebergements-cards img
 {
@@ -298,9 +292,7 @@ form
 
 .hebergements-cards .card
 {
-    width:250px;
-    
-   
+    width:240px;  
 }
 
 /****** Populaires ***********/
