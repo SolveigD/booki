@@ -254,7 +254,6 @@ form
 {
  
  display: flex;
- align-self: stretch;
  flex-direction: row;
  justify-content: space-evenly;
  gap:30px;
