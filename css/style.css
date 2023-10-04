@@ -190,7 +190,7 @@ form
     align-items: center;
     width:24px;
     height: 24px;
-    
+    git
 }
 
 
@@ -246,6 +246,61 @@ form
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards
+
+{
+ display: flex;
+ flex-direction: row;
+ margin-top:30px;
+}
+
+.hebergements-cards .card-content
+{
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom:15px;
+}
+
+.hebergements-cards .card-title
+{
+    margin-top:4px;
+   margin-bottom:0px;
+}
+
+.hebergements-cards .card-subtitle
+{
+    font-size:14px;
+    margin-top:8px;
+    margin-bottom:8px;
+    padding:0;
+}
+
+.hebergements-card .card-txt
+{
+    margin:0;
+    padding:0;
+}
+
+.hebergements-card .card-rating
+{
+    margin:0px;
+    padding:0px;
+}
+
+.hebergements-cards img
+{
+    height:124px;
+    width:100%;
+    border-radius:20px 20px 0px 0px;
+}
+
+.hebergements-cards .card
+{
+    width:250px;
+    
+   
 }
 
 /****** Populaires ***********/
