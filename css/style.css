@@ -352,9 +352,38 @@ form
 {
     margin-top:35px;
     margin-bottom:35px;
+    padding:30px;
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
 }
 
+.activites .card
 
+{
+    padding:0px;
+}
+.activites .card img
+{
+    height:380px;
+    width:297.5px;
+    border-radius:20px 20px 0px 0px;
+  
+    
+}
+
+.activites .card-title
+{
+ padding-left:19px;
+ padding-right:19px;
+ padding-top:20px;
+ padding-bottom:20px;
+ margin-top:0px;
+ margin-bottom:0px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
