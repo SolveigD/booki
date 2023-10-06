@@ -385,6 +385,14 @@ form
  margin-bottom:0px;
 }
 
+footer
+{
+    margin-top:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
