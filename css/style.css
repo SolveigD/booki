@@ -69,7 +69,8 @@ nav a:hover
     border-top:var(--main-color) solid 2px;
 }
 
-a {
+a 
+{
     color: inherit;
     text-decoration: none;
 }
@@ -214,31 +215,37 @@ section, footer
     margin-top:35px;
 }
 
-.section-title {
+.section-title 
+{
     margin: 0;
     font-size: 22px;
 }
 
-.card {
+.card 
+{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img {
+.card img 
+{
     object-fit: cover;
 }
 
-.card-title {
+.card-title 
+{
     font-size: 16px;
 }
 
-.euro {
+.euro 
+{
     font-weight: 700;
 }
 
-.neutral-star {
+.neutral-star 
+{
     color: var(--main-bg-color)
 }
 
@@ -361,6 +368,8 @@ section, footer
 }
 
 
+/** activites **/
+
 .activites
 
 {
@@ -386,8 +395,6 @@ section, footer
    
     
 }
-
-/** activites **/
 
 .activites .card
 
@@ -557,11 +564,17 @@ footer
     padding-right:20px;
   }
 
-    form
+  .info_bar
   {
-    gap:0;
+    margin-top:0;
   }
 
+  .info_bar p
+
+  {
+    margin-top:0;
+    margin-bottom:0;
+  }
     .search_bar
   {
     
@@ -569,11 +582,8 @@ footer
         justify-content: center;
   }
    
-  .search{
-    padding-left:14px;
-  }
+  
     
-   
     .submit
     {
         display: none;
@@ -602,6 +612,7 @@ footer
     {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom:35px;
     }
 
 
